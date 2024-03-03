@@ -1,0 +1,420 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Product Detail </title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="shortcut icon" href="./img/LogoMiniProject.png" type="image/jpg">
+    <!-- Tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- css style -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Flowbit scipt  -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+
+    <!-- awesome icon  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+
+
+
+
+
+
+<body class="bg-white h-screen flex flex-col justify-between">
+
+
+
+
+    <header>
+
+
+        <nav class="bg-[#f5f5f5] fixed w-full top-0 start-0 z-50">
+            <section class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
+
+                <!-- Logo page  -->
+                <a href="./index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img class="  h-[80px] w-[80px] " src="./img/LogoMiniProject.png  " alt="Logo">
+                </a>
+
+                <section class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                    <a href="./signUp.html">
+                        <button type="button"
+                            class=" w-[130px] text-white bg-[#0D9480] hover:bg-[#048287] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded text-sm px-4 py-2 text-center dark:bg-[#0D9480] dark:hover:bg-[#048287] dark:focus:ring-blue-800">Sign
+                            Up
+                        </button>
+                    </a>
+
+                    <button data-collapse-toggle="navbar-sticky" type="button"
+                        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        aria-controls="navbar-sticky" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 17 14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 1h15M1 7h15M1 13h15" />
+                        </svg>
+                    </button>
+                </section>
+
+                <section class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+                    id="navbar-sticky">
+                    <ul
+                        class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-[#f5f5f5] bg-[#f5f5f5] text-xl font-semibold   ">
+                        <li>
+                            <a href="./index.html"
+                                class="block py-2 px-3 rounded md:hover:bg-transparent md:p-0 text-black hover:bg-[#FF008A] hover:md:text-[#0D9488] "
+                                aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <a href="./productPage.html"
+                                class="block py-2 px-3 rounded md:hover:bg-transparent md:p-0 text-black hover:bg-[#FF008A] hover:md:text-[#0D9488] ">Products</a>
+                        </li>
+                        <li>
+                            <a href="./about.html"
+                                class="block py-2 px-3 rounded md:hover:bg-transparent md:p-0 text-black hover:bg-[#FF008A] hover:md:text-[#0D9488] ">About</a>
+                        </li>
+
+
+                    </ul>
+                </section>
+            </section>
+        </nav>
+
+    </header>
+
+
+
+
+
+
+
+    <main>
+
+        <!-- Product Detail Section -->
+        <section class="text-gray-700 body-font overflow-hidden bg-white" data-aos="fade-up">
+            <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+                <div class="flex flex-wrap">
+                    <img alt="ecommerce"
+                        class="lg:w-1/2 w-full object-cover object-center rounded border border-gray-200"
+                        src="https://images.unsplash.com/photo-1618898909019-010e4e234c55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80">
+                    <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+                        <h2 class="text-sm title-font text-gray-500 tracking-widest">BRAND NAME</h2>
+                        <h1 class="text-gray-900 text-3xl title-font font-medium mb-1">Casual Trainers</h1>
+                        <div class="flex mb-4">
+                            <span class="flex items-center">
+                                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-yellow-500"
+                                    viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
+                                    </path>
+                                </svg>
+                                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-yellow-500"
+                                    viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
+                                    </path>
+                                </svg>
+                                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-yellow-500"
+                                    viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
+                                    </path>
+                                </svg>
+                                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-yellow-500"
+                                    viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
+                                    </path>
+                                </svg>
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="w-4 h-4 text-yellow-500" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
+                                    </path>
+                                </svg>
+                                <span class="text-gray-600 ml-3">4 Reviews</span>
+                            </span>
+                            <span class="flex ml-3 pl-3 py-2 border-l-2 border-gray-200">
+                                <a class="text-gray-500">
+                                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500">
+                                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500">
+                                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                        <path
+                                            d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                        <p class="leading-relaxed text-justify indent-10">The Nike Air Force 1 is a basketball shoe
+                            designed
+                            by Bruce Kilgore and introduced by Nike in 1982. It was the first basketball shoe to feature
+                            Nike Air technology, which revolutionized the game and sneaker culture forever. Over three
+                            decades since its first release, the Air Force 1 remains true to its roots while earning its
+                            status as a fashion staple for seasons to come.</p>
+                        <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-200 mb-5">
+                            <div class="flex">
+                                <span class="mr-3">Color</span>
+                                <button
+                                    class="border-2 border-gray-300 rounded-full w-6 h-6 focus:outline-none"></button>
+                                <button
+                                    class="border-2 border-gray-300 ml-1 bg-gray-700 rounded-full w-6 h-6 focus:outline-none"></button>
+                                <button
+                                    class="border-2 border-gray-300 ml-1 bg-red-500 rounded-full w-6 h-6 focus:outline-none"></button>
+                            </div>
+                            <div class="flex ml-6 items-center">
+                                <span class="mr-3">Size</span>
+                                <div class="relative">
+                                    <select
+                                        class="rounded border appearance-none border-gray-400 py-2 focus:outline-none focus:border-red-500 text-base pl-3 pr-10">
+                                        <option>SM</option>
+                                        <option>M</option>
+                                        <option>L</option>
+                                        <option>XL</option>
+                                    </select>
+                                    <span
+                                        class="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
+                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2" class="w-4 h-4"
+                                            viewBox="0 0 24 24">
+                                            <path d="M6 9l6 6 6-6"></path>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <span class="title-font font-medium text-2xl text-gray-900">$58.00</span>
+                            <button
+                                class="flex ml-auto text-white bg-teal-500 border-0 py-2 px-6 focus:outline-none hover:bg-teal-600 rounded">Add
+                                to Cart</button>
+                            <button
+                                class="rounded-full w-10 h-10 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4 hover:text-red-500 hover:bg-red-200 hover:duration-300 hover:ease-in-out">
+                                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    class="w-5 h-5" viewBox="0 0 24 24">
+                                    <path
+                                        d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z">
+                                    </path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+            <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Related Product</h2>
+            <div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-4" data-aos="fade-up">
+                <div>
+                    <a href="./productDetail.html" class="group block overflow-hidden card">
+                      <img
+                        src="https://images.unsplash.com/photo-1621665422246-fde75fb7e7f5?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1887&amp;q=80"
+                        alt="" class="h-[300px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[300px]">
+        
+                      <div class="relative bg-white pt-3 overlay">
+                        <div class="mt-[20px]">
+                          <p class="text-lg">Lunar Connect</p>
+                          <p class="text-lg price" id="price">$25.99</p>
+                          <p class="text-lg add-to-cart hidden"><i class="fa-solid fa-cart-shopping"></i> Add to cart</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+        
+        
+        
+                  <div>
+                    <a href="./productDetail.html" class="group block overflow-hidden card">
+                      <img
+                        src="https://images.unsplash.com/photo-1621665422246-fde75fb7e7f5?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1887&amp;q=80"
+                        alt="" class="h-[300px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[300px]">
+        
+                      <div class="relative bg-white pt-3 overlay">
+                        <div class="mt-[20px]">
+                          <p class="text-lg">Lunar Connect</p>
+                          <p class="text-lg price" id="price">$25.99</p>
+                          <p class="text-lg add-to-cart hidden"><i class="fa-solid fa-cart-shopping"></i> Add to cart</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+        
+        
+        
+                  <div>
+                    <a href="./productDetail.html" class="group block overflow-hidden card">
+                      <img
+                        src="https://images.unsplash.com/photo-1621665422246-fde75fb7e7f5?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1887&amp;q=80"
+                        alt="" class="h-[300px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[300px]">
+        
+                      <div class="relative bg-white pt-3 overlay">
+                        <div class="mt-[20px]">
+                          <p class="text-lg">Lunar Connect</p>
+                          <p class="text-lg price" id="price">$25.99</p>
+                          <p class="text-lg add-to-cart hidden"><i class="fa-solid fa-cart-shopping"></i> Add to cart</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+        
+        
+        
+                  <div>
+                    <a href="./productDetail.html" class="group block overflow-hidden card">
+                      <img
+                        src="https://images.unsplash.com/photo-1621665422246-fde75fb7e7f5?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1887&amp;q=80"
+                        alt="" class="h-[300px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[300px]">
+        
+                      <div class="relative bg-white pt-3 overlay">
+                        <div class="mt-[20px]">
+                          <p class="text-lg">Lunar Connect</p>
+                          <p class="text-lg price" id="price">$25.99</p>
+                          <p class="text-lg add-to-cart hidden"><i class="fa-solid fa-cart-shopping"></i> Add to cart</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+        </section>
+
+
+    </main>
+
+
+
+    <!-- Footer -->
+    <footer class=" bg-[#f5f5f5] w-full">
+        <section class="mx-auto w-[85%] pt-[20px]">
+            <section class=" grid justify-between lg:grid-cols-[800px_1fr_1fr] sm:grid-cols-1 lg:gap-[10px] ">
+                <section class=" lg:w-[800px] md:w-[500px] sm:w-[400px] ">
+                    <a href="./index.html">
+                        <img class="w-[150px]" src="./img/LogoMiniProject.png" alt="Logo">
+                    </a>
+
+                    <ul>
+                        <li class="text-lg font-medium  ">address :<span class="text-gray-500 font-light"> No. 24, St.
+                                562, Sangkat
+                                Boeung kak I, Khan Toul Kork, Phnom Penh, Cambodia</span></li>
+                        <li class="text-lg font-medium ">Phone : <span class="text-gray-500 font-light ">( +885 ) 87 575
+                                678</span>
+                        </li>
+                    </ul>
+                    <p class="text-lg font-medium ">Follow Us</p>
+
+                    <ul class="mt-8 flex gap-6">
+                        <li>
+                            <a href="https://t.me/istadkh" target="_blank">
+                                <i class="fa-brands fa-telegram fa-2x"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.facebook.com/istad.co" target="_blank">
+                                <i class="fa-brands fa-facebook fa-2x "></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCUaq9S8Gu4zteE-x77JT-kA" target="_blank">
+                                <i class="fa-brands fa-youtube fa-2x "></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                </section>
+
+                <section class=" pt-[50px] ">
+                    <div>
+                        <a href="./about.html">
+                            <p class="font-semibold text-xl ">About </p>
+                        </a>
+
+                        <ul class="mt-6 space-y-4 text-sm">
+                            <li>
+                                <a href="#" class="text-gray-500 font-light text-lg">
+                                    About Us
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="text-gray-500 font-light text-lg">
+                                    Delivery Information
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="text-gray-500 font-light text-lg">
+                                    Contact Us
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="text-gray-500 font-light text-lg">
+                                    Privatcy Policy
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </section>
+
+
+                <section class=" pt-[50px] ">
+
+                    <div>
+                        <a href="./about.html">
+                            <p class="font-semibold text-xl ">My Acount</p>
+                        </a>
+
+                        <ul class="mt-6 space-y-4 text-sm">
+                            <li>
+                                <a href="about.html" class="text-gray-500 font-light text-lg">
+                                    Sign In
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="contact.html" class="text-gray-500 font-light text-lg">
+                                    Help
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+
+            <section style=" border: 1px solid black ; margin-top: 10px; margin-bottom: 10px;"></section>
+
+            <p class=" flex justify-center text-gray-500 font-light text-lg ">
+                &copy; 2023. CSTAD Shop. All rights reserved.
+            </p>
+        </section>
+    </footer>
+
+
+    <!-- Flowbit script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</body>
+
+</html>
